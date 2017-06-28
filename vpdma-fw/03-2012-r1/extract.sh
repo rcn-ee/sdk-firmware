@@ -11,7 +11,7 @@ fi
 mkdir -p ./ignore
 
 cd ./ignore/
-ar xv ../vpdma-fw_03-2012-r1_am57xx_evm.ipk
+ar xv ../vpdma-fw_*_am57xx_evm.ipk
 tar xf data.tar.gz
 cp lib/firmware/vpdma-1b8.bin ../files/
 cd ../
